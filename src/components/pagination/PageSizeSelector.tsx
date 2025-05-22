@@ -16,7 +16,7 @@ export function PageSizeSelector({ limit, onLimitChange }: IProps) {
   const limitOptions = [10, 20, 50, 100];
 
   return (
-    <Select defaultValue={String(limit)} onValueChange={onLimitChange}>
+    <Select value={String(limit)} onValueChange={onLimitChange}>
       <SelectTrigger>
         <SelectValue placeholder="Registros por página" />
       </SelectTrigger>

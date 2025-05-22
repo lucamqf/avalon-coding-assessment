@@ -12,5 +12,5 @@ export default async function PostsPage({ searchParams }: IPageProps) {
   const pageNumber = page ? Number(page) : undefined;
   const limitNumber = limit ? Number(limit) : undefined;
 
-  return <Posts page={pageNumber} limit={limitNumber} />;
+  return <Posts page={pageNumber} limit={limitNumber} shouldShowPagination />;
 }
