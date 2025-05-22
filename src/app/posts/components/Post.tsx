@@ -21,7 +21,7 @@ export default function Post({ post }: Props) {
       >
         <CardContent className="space-y-1">
           <CardTitle className="text-lg font-bold line-clamp-2">
-            {post.id} - {post.title}
+            {post.title}
           </CardTitle>
           <CardDescription className="text-sm text-gray-500 line-clamp-2">
             {post.body}
